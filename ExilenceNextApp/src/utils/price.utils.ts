@@ -186,6 +186,11 @@ export function mapApiPricedItemToPricedItem(item: IPricedItem) {
 }
 
 export function excludeLegacyMaps(prices: IExternalPrice[]) {
-  const acceptedMaps = [', Gen-12', 'expedition'];
+  const acceptedMaps = [', Gen-12', ', Gen-13', ', Gen-14', ', Gen-15', ', Gen-16', 'expedition'];
   return prices.filter((p) => p.tier === 0 || !p.variant || acceptedMaps.includes(p.variant));
+}
+
+export function excludeInvalidItems(prices: IExternalPrice[]) {
+  const invalidItems = ['Charged Compass'];
+  return prices.filter((p) => !invalidItems.includes(p.name));
 }

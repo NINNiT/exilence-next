@@ -1,6 +1,16 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.1.8] - 2022-02-20
+#### Added
+- Added support for choosing installation path when installing the application
+- Added support for pricing maps in Archnemesis league
+#### Fixed
+- Fixed a bug where uninstalling the app didn't properly clear old user data
+- Fixed a bug where users could not snapshot when their profile included items of type `Charged Compass`
+#### Changed
+- Minor label tweaks
+
 ## [1.1.7] - 2022-02-08
 #### Changed
 - Changed polling interval to reduce load towards poe.ninja

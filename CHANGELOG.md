@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.2.0] - 2020-08-21
+#### Added
+- Added support for converting currency to divine orbs in net worth display
+#### Fixed
+- Fixed a bug where rate limits could sometimes occur from fetching obsolete leagues
+#### Changed
+- Minor label tweaks
+
 ## [1.1.8] - 2022-02-20
 #### Added
 - Added support for choosing installation path when installing the application
